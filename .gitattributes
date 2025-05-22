@@ -1,12 +1,2 @@
-*.iml
-.gradle
-.build-cache
-/local.properties
-**/.idea/**
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-**/build/**
-buildSrc/out
-**/.build-cache
+.githooks/** linguist-vendored
+gradlew linguist-vendored
