@@ -169,6 +169,7 @@ fun login() {
 
 ### Run Shell Script
 ```shell
+$ ./gradlew clean build tasks restDocsTest
 $ ./gradlew clean build tasks copyOasSwagger
 ```
 
