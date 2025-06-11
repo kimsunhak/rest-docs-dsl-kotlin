@@ -72,7 +72,7 @@ object MockMvcExtensions {
         }
         return this.apply(
             MockMvcRestDocumentationWrapper.document(
-                identifier = identifier,
+                identifier = summary,
                 requestPreprocessor = RestDocsDSLSupport.requestPreprocessor(),
                 responsePreprocessor = RestDocsDSLSupport.responsePreprocessor(),
                 resourceDetails = builder,
